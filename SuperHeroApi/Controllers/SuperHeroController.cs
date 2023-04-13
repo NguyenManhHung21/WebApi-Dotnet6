@@ -41,11 +41,11 @@ namespace SuperHeroApi.Controllers
         }
 
 
-        [HttpGet]
-        public async Task<ActionResult<List<SuperHero>>> GetList()
-        {
-            return Ok(heroes);
-        }
+        //[HttpGet]
+        //public async Task<ActionResult<List<SuperHero>>> GetList()
+        //{
+        //    return Ok(heroes);
+        //}
 
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(int id)
